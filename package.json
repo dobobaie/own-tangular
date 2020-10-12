@@ -1,0 +1,12 @@
+{
+    "name": "tangular",
+    "version": "1.0.0",
+    "scripts": {
+        "watch": "tsc --watch -p ./lib",
+        "serve": "nodemon dist/tangular.js --watch dist/"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4",
+        "typescript": "^4.0.2"
+    }
+}
