@@ -2,7 +2,7 @@
     "name": "tangular",
     "version": "1.0.0",
     "scripts": {
-        "build": "tsc -p ./lib",{
+        "build": "tsc -p ./lib",
         "watch": "tsc --watch -p ./lib",
         "serve": "nodemon dist/tangular.js --watch dist/"
     },
